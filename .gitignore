@@ -1,0 +1,11 @@
+# Jupyter
+.ipynb_checkpoints/      # Mellanlagrade filer som Jupyter skapar automatiskt
+
+# Python venv
+.venv/                   # Din virtuella miljö (ska ej pushas)
+venv/                    # Samma sak men annat namn
+__pycache__/             # Python cache-filer
+*.pyc                    # Python compiled bytecode
+
+# OS
+.DS_Store?               # MacOS systemfil som ofta dyker upp
